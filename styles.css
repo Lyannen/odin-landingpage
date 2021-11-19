@@ -1,0 +1,169 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-links {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+
+.header a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 120px;
+    justify-content: space-between;
+    gap: 48px;
+    align-items: stretch;
+}
+
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.heroimg {
+    max-width: 50%;
+}
+
+.heroimg img {
+    flex: 1;
+}
+
+.signup {
+    border-radius: 10px;
+    margin-top: 8px;
+    padding: 10px 24px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 600;
+
+}
+
+.info-section {
+    text-align: center;
+    padding: 100px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.info img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.info {
+    max-width: 200px;
+}
+
+
+.quote-container {
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 0;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-container {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 40px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 52px;
+}
+
+.call-main {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
